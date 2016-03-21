@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    -Lines that are changed are quickly outlined
+    -Your eyes can easily skip unchanged lines
+    -You can see the old and new versions at the same time
+    -You can see the versions line-by-line
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    -Parts of old versions can be re-used for new programs
+    -If you forget how something was initially done, you can always go back 
+    and check
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros:
+    -Every version can compile and make sense
+    -Versions won't be saved in the middle of an edit
+    -Several same versions won't be saved
+
+    cons:
+    -forgetting to save and losing an edit
+    -saving too many/not enough versions and it becomes hard to follow edits
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    -It depends if the files are related to eachother
+    -Git is designed for coding so several files can change on each commit
+    -To find older versions, you want all the files to compile together and
+    want the same versions ar the same time
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log
+    -first use 'cd directory_name/' to get into the directory where the files are
+    -this command shows a list of all recent commits
+    -can search through comments to find the stage you want
+    -the newest commit is at the top
+
+    git diff old_commit_ID new_commit_ID
+    -compares the two versions using colour coding
+    -can easily see the lines that are added/removed
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    -If you know you can go back to a working version, why not try anything out!
+    -You know that there is nothing to lose
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    -Making a website for the CSS/html course
+    -Learning the data simulation course
