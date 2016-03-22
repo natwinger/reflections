@@ -9,3 +9,16 @@ Why might you want to always pull changes manually rather than having Git automa
 	know you will understand what they have done. So you don't get confused.
 	-Same as before, you don't want random commits to come to your local repository 
 	because they might not make sense or the author might change them further.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	-Forks make a copy of someone else's GitHub files to your GitHub account
+	-Clones make a copy of files on GitHub (or on your local repository) to your (maybe different) local repository
+	-Branches split the direction of your work, so that you can add different levels or
+	versions of your code without changing the original. No copies are made, though.
+	-Forks are used over clones when you are starting with someone else's work that you
+	don't have permission to edit. You get your own copy to use
+	-Branches are used to make different versions of code from a certain point, but not to make copies
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	-You can be fully up-to-date on other peoples' updates
+	-You resolve conflicting changes before there are too many of them
